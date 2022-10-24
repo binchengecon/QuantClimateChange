@@ -55,7 +55,7 @@ Image(filename='./JumpStates.png')
 # +\frac{\partial \phi^{(m)}}{\partial \log \mathcal{I}_g}\left(-\zeta+\Psi_0\left(x \frac{K}{\mathcal{I}_g}\right)^{\Psi_1}-\frac{\sigma_g^2}{2}\right)+\frac{\sigma_g^2}{2} \frac{\partial^2 \phi^{(m)}}{\partial \log \mathcal{I}_g^2}\\
 # -\left(\left[\gamma_1+\gamma_2 y+\gamma_3^m\right] \sum_{\ell=1}^L \omega_{\ell} \theta_{\ell} e+\left[\gamma_2+\gamma_3^m\right] \frac{|\zeta|^2}{2} e^2\right) \\
 # +\xi_a \sum_{\ell=1}^L \omega_{\ell}\left(\log \omega_{\ell}-\log \pi_{\ell}\right) \\
-# +\xi_g \mathcal{I}_g(1-g+g \log g)+\mathcal{I}_g g\left(\Phi^{(I I)}-\Phi\right)
+# +\xi_g \mathcal{I}_g(1-g+g \log g)+\mathcal{I}_g g\left(\Phi^{(m,I I)}-\Phi\right)
 # $$
 # 
 # 
@@ -86,7 +86,7 @@ Image(filename='./JumpStates.png')
 # -\left(\left[\gamma_1+\gamma_2 Y\right] \sum_{\ell=1}^L \omega_{\ell} \theta_{\ell} e+\gamma_2 \frac{|\zeta|^2}{2} e^2\right) \\
 # +\xi_a \sum_{\ell=1}^L \omega_{\ell}\left(\log \omega_{\ell}-\log \pi_{\ell}\right) \\
 # +\xi_g \mathcal{I}_g(1-g+g \log g)+\mathcal{I}_g g\left(\Phi^{(I I)}-\Phi\right) \\
-# +\xi_d \mathcal{I}_d\left(1-f_m+f_m \log f_m\right)+\mathcal{I}_d \sum_{m=1}^M \pi_d^m f_m\left(\phi^{(m)}-\Phi\right) .
+# +\xi_d \mathcal{I}_d\left(1-f_m+f_m \log f_m\right)+\mathcal{I}_d \sum_{m=1}^M \pi_d^m f_m\left(\phi^{(m, I I)}-\Phi\right) .
 # $$
 
 # # 3: Special Treatment
