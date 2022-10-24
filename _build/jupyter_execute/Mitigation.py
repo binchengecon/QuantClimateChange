@@ -45,13 +45,14 @@ Image(filename='./JumpStates.png')
 # ## 2.2 Post-Damage Jump, Pre-Technology Jump $V^{m}$
 # 
 # $$
-# V^{(m)}\left(\log K, Y, \mathcal{I}_g, \log N\right)=\phi^{(m)}\left(\log K, Y, \mathcal{I}_g\right)-\log N
+# V^{(m)}\left(\log K, Y, \log \mathcal{I}_g, \log N\right)=\phi^{(m)}\left(\log K, Y,\log  \mathcal{I}_g\right)-\log N
 # $$
 # 
 # $$
 # 0=\max _{e, i_k, i_g} \min _{\omega_{\ell}: \sum_{\ell=1}^L \omega_{\ell}=1, g} -\delta \phi^{(m)}+\delta \log \left(\alpha-i_k-i_g \exp \left(-\log K+\log \mathcal{I}_g\right)-\alpha \bar{\vartheta}\left[1-\left(\frac{e}{\alpha \bar{\lambda} K}\right)\right]^\theta\right)+\delta \log K \\
 # +\frac{\partial \phi^{(m)}}{\partial \log K}\left[\mu_k+i_k-\frac{\kappa}{2} i_k^2-\frac{\left|\sigma_k\right|^2}{2}\right]+\frac{\partial^2 \phi^{(m)}}{\partial \log K^2} \frac{\left|\sigma_k\right|^2}{2} \\
 # +\frac{\partial \phi^{(m)}}{\partial Y} \sum_{\ell=1}^L \omega_{\ell} \theta_{\ell} e+\frac{\partial^2 \phi^{(m)}}{\partial Y^2} \frac{|\varsigma|^2}{2} e^2 \\
+# +\frac{\partial \phi^{(m)}}{\partial \log \mathcal{I}_g}\left(-\zeta+\Psi_0\left(x \frac{K}{\mathcal{I}_g}\right)^{\Psi_1}-\frac{\sigma_g^2}{2}\right)+\frac{\sigma_g^2}{2} \frac{\partial^2 \phi^{(m)}}{\partial \log \mathcal{I}_g^2}\\
 # -\left(\left[\gamma_1+\gamma_2 y+\gamma_3^m\right] \sum_{\ell=1}^L \omega_{\ell} \theta_{\ell} e+\left[\gamma_2+\gamma_3^m\right] \frac{|\zeta|^2}{2} e^2\right) \\
 # +\xi_a \sum_{\ell=1}^L \omega_{\ell}\left(\log \omega_{\ell}-\log \pi_{\ell}\right) \\
 # +\xi_g \mathcal{I}_g(1-g+g \log g)+\mathcal{I}_g g\left(\Phi^{(I I)}-\Phi\right)
@@ -74,15 +75,15 @@ Image(filename='./JumpStates.png')
 # 
 # ## 2.4 Pre-Damage Jump, Pre-Technology Jump $V$
 # $$
-# V\left(\log K, Y, \mathcal{I}_g, \log N\right)=\Phi\left(\log K, Y, \mathcal{I}_g\right)-\log N
+# V\left(\log K, Y, \log \mathcal{I}_g, \log N\right)=\Phi\left(\log K, Y,\log  \mathcal{I}_g\right)-\log N
 # $$
 # 
 # $$
 # 0=\max _{e, i_k, i_g \omega_{\ell}: \sum_{\ell=1}^L \omega_{\ell}=1, g, f_m} -\delta \Phi+\delta \log \left(\alpha-i_k-i_g \exp \left(-\log K+\log \mathcal{I}_g\right)-\alpha \bar{\vartheta}\left[1-\left(\frac{e}{\alpha \bar{\lambda} K}\right)\right]^\theta\right)+\delta \log K \\
 # +\frac{\partial \Phi}{\partial \log K}\left[\mu_k+i_k-\frac{\kappa}{2} i_k^2-\frac{\left|\sigma_k\right|^2}{2}\right]+\frac{\partial^2 \Phi}{\partial \log K^2} \frac{\left|\sigma_k\right|^2}{2} \\
 # +\frac{\partial \Phi}{\partial Y} \sum_{\ell=1}^L \omega_{\ell} \theta_{\ell} e+\frac{\partial^2 \Phi}{\partial Y^2} \frac{|\zeta|^2}{2} e^2 \\
+# +\frac{\partial \Phi}{\partial \log \mathcal{I}_g}\left(-\zeta+\psi_0\left(i_g\right)^{\psi_1}-\frac{\left|\sigma_{g}\right|^2}{2}\right)+\frac{\left|\sigma_{g}\right|^2}{2}\frac{\partial^2 \Phi}{\partial \log \mathcal{I}_g^2} \\
 # -\left(\left[\gamma_1+\gamma_2 Y\right] \sum_{\ell=1}^L \omega_{\ell} \theta_{\ell} e+\gamma_2 \frac{|\zeta|^2}{2} e^2\right) \\
-# +\frac{\partial \Phi}{\partial \mathcal{I}}\left(-\zeta+\psi_0\left(i_g\right)^{\psi_1}-\frac{\left|\sigma_{\mathcal{I}}\right|^2}{2}\right)+\frac{1}{2}+\frac{\partial^2 \Phi}{\partial \mathcal{I}^2}\left|\sigma_{\mathcal{I}}\right|^2 \\
 # +\xi_a \sum_{\ell=1}^L \omega_{\ell}\left(\log \omega_{\ell}-\log \pi_{\ell}\right) \\
 # +\xi_g \mathcal{I}_g(1-g+g \log g)+\mathcal{I}_g g\left(\Phi^{(I I)}-\Phi\right) \\
 # +\xi_d \mathcal{I}_d\left(1-f_m+f_m \log f_m\right)+\mathcal{I}_d \sum_{m=1}^M \pi_d^m f_m\left(\phi^{(m)}-\Phi\right) .
