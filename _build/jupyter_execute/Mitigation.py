@@ -42,7 +42,20 @@ Image(filename='./JumpStates.png')
 # +\frac{\partial \phi^{(m, I I)}}{\partial \log K}\left[\mu_k+i_k-\frac{\kappa}{2} i_k^2-\frac{\left|\sigma_k\right|^2}{2}\right]+\frac{\partial^2 \phi^{(m, I I)}}{\partial \log K^2} \frac{\left|\sigma_k\right|^2}{2}
 # $$
 # 
-# ## 2.2 Post-Damage Jump, Pre-Technology Jump $V^{m}$
+# ## 2.2 Pre-Damage Jump, Post-Technology Jump $V^{I I}$
+# 
+# 
+# $$
+# V^{(I I)}(\log K, Y, \log N)=\Phi^{(I I)}(\log K, Y)-\log N
+# $$
+# 
+# $$
+# 0=\max _{i_k} -\Phi^{(I I)}+\delta \log \left(\alpha-i_k\right)+\delta \log K \\
+# +\frac{\partial \Phi^{(I I)}}{\partial \log K}\left[\mu_k+i_k-\frac{\kappa}{2} i_k^2-\frac{\left|\sigma_k\right|^2}{2}\right]+\frac{\partial^2 \Phi^{(I I)}}{\partial \log K^2} \frac{\left|\sigma_k\right|^2}{2}
+# $$
+# 
+# 
+# ## 2.3 Post-Damage Jump, Pre-Technology Jump $V^{m}$
 # 
 # $$
 # V^{(m)}\left(\log K, Y, \log \mathcal{I}_g, \log N\right)=\phi^{(m)}\left(\log K, Y,\log  \mathcal{I}_g\right)-\log N
@@ -56,19 +69,6 @@ Image(filename='./JumpStates.png')
 # -\left(\left[\gamma_1+\gamma_2 y+\gamma_3^m\right] \sum_{\ell=1}^L \omega_{\ell} \theta_{\ell} e+\left[\gamma_2+\gamma_3^m\right] \frac{|\zeta|^2}{2} e^2\right) \\
 # +\xi_a \sum_{\ell=1}^L \omega_{\ell}\left(\log \omega_{\ell}-\log \pi_{\ell}\right) \\
 # +\xi_g \mathcal{I}_g(1-g+g \log g)+\mathcal{I}_g g\left(\Phi^{(I I)}-\Phi\right)
-# $$
-# 
-# 
-# ## 2.3 Pre-Damage Jump, Post-Technology Jump $V^{I I}$
-# 
-# 
-# $$
-# V^{(I I)}(\log K, Y, \log N)=\Phi^{(I I)}(\log K, Y)-\log N
-# $$
-# 
-# $$
-# 0=\max _{i_k} -\Phi^{(I I)}+\delta \log \left(\alpha-i_k\right)+\delta \log K \\
-# +\frac{\partial \Phi^{(I I)}}{\partial \log K}\left[\mu_k+i_k-\frac{\kappa}{2} i_k^2-\frac{\left|\sigma_k\right|^2}{2}\right]+\frac{\partial^2 \Phi^{(I I)}}{\partial \log K^2} \frac{\left|\sigma_k\right|^2}{2}
 # $$
 # 
 # 
