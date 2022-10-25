@@ -45,7 +45,7 @@
 # $$
 # 
 
-# # Damage jump and technology jump
+# # 2: Damage jump and technology jump
 
 # In[1]:
 
