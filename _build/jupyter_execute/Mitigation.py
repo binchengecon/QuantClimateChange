@@ -104,7 +104,7 @@ Image(filename='./JumpStates.png')
 # 
 # 
 # | Grid Step Size | Learning Rate| $\psi_0$ | $\psi_1$ | Time |
-# |----          |---    |---    |---|---|
+# |----|---|---|---|---|
 # |0.2, 0.2, 0.2 | 0.1   |0.005   |0.5    |0 days 00 hr 03 min 26 sec|
 # |0.2, 0.2, 0.2 | 0.1   |0.008   |0.5    |0 days 00 hr 03 min 54 sec|
 # |0.2, 0.2, 0.2 | 0.1   |0.010   |0.5    |0 days 00 hr 03 min 37 sec|
@@ -125,7 +125,7 @@ Image(filename='./JumpStates.png')
 # ## 4.2: Pre-Damage Part 
 # 
 # | Grid Step Size | Learning Rate| $\psi_0$ | $\psi_1$ | Time |
-# |----          |---    |---    |---|---|
+# |----|---|---|---|---|
 # |0.2, 0.2, 0.2 | 0.005   |0.005   |0.5    |0 days 00 hr 40 min 56 sec|
 # |0.2, 0.2, 0.2 | 0.005   |0.008   |0.5    |0 days 00 hr 41 min 15 sec|
 # |0.2, 0.2, 0.2 | 0.005   |0.010   |0.5    |0 days 00 hr 41 min 58 sec|
