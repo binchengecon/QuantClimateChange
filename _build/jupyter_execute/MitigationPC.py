@@ -34,7 +34,7 @@ Image(filename='./JumpStates.png')
 # ## 2.1 Post-Damage Jump, Post-Technology Jump $V^{(m, I I)}$
 # 
 # \begin{aligned}
-# V^{(m, I I)}(\log K, Y, \log N)=\phi^{(m, I I)}(\log K, Y)-\log N
+# V^{(m, I I)}(\log K, Y, \log N)&=\phi^{(m, I I)}(\log K, Y)-\log N
 # \end{aligned}
 # 
 # \begin{aligned}
@@ -73,9 +73,13 @@ Image(filename='./JumpStates.png')
 # 
 # 
 # ## 2.4 Pre-Damage Jump, Pre-Technology Jump $V$
+# 
+# 
+# 
 # \begin{aligned}
 # V\left(\log K, Y, \mathcal{I}_g, \log N\right)=\Phi\left(\log K, Y, \mathcal{I}_g\right)-\log N
 # \end{aligned}
+# 
 # 
 # \begin{aligned}
 # 0=\max _{e, i_k, i_g \omega_{\ell}: \sum_{\ell=1}^L \omega_{\ell}=1, g, f_m} &-\delta \Phi+\delta \log \left(\alpha-i_k-i_g \exp \left(-\log K+\log \mathcal{I}_g\right)-\alpha \bar{\vartheta}\left[1-\left(\frac{e}{\alpha \bar{\lambda} K}\right)\right]^\theta\right)+\delta \log K \\
@@ -87,6 +91,8 @@ Image(filename='./JumpStates.png')
 # &+\xi_g \mathcal{I}_g(1-g+g \log g)+\mathcal{I}_g g\left(\Phi^{(I I)}-\Phi\right) \\
 # &+\xi_d \mathcal{I}_d\left(1-f_m+f_m \log f_m\right)+\mathcal{I}_d \sum_{m=1}^M \pi_d^m f_m\left(\phi^{(m)}-\Phi\right) .
 # \end{aligned}
+# 
+# 
 
 # # 3: Special Treatment
 # 

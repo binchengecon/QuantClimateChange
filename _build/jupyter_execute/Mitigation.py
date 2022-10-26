@@ -51,6 +51,9 @@
 
 
 from IPython.display import Image
+from IPython.display import display, HTML
+display(HTML("<style>.container { width:100% !important; }</style>"))
+
 Image(filename='./JumpStates.png')
 
 
@@ -127,7 +130,7 @@ Image(filename='./JumpStates.png')
 # 
 # 
 # | Grid Step Size | Learning Rate| $\psi_0$ | $\psi_1$ | Time |
-# |----|---|---|---|---|
+# |----|---|---|:-|:-|
 # |0.2, 0.2, 0.2 | 0.1   |0.005   |0.5    |0 days 00 hr 03 min 26 sec|
 # |0.2, 0.2, 0.2 | 0.1   |0.008   |0.5    |0 days 00 hr 03 min 54 sec|
 # |0.2, 0.2, 0.2 | 0.1   |0.010   |0.5    |0 days 00 hr 03 min 37 sec|
@@ -136,14 +139,14 @@ Image(filename='./JumpStates.png')
 # |0.2, 0.2, 0.2 | 0.008 |0.008   |0.8    |0 days 00 hr 30 min 51 sec|
 # |0.2, 0.2, 0.2 | 0.008 |0.010   |0.8    |0 days 00 hr 37 min 07 sec|
 # |0.2, 0.2, 0.2 | 0.008 |0.012   |0.8    |0 days 00 hr 35 min 17 sec|
-# |0.05, 0.05, 0.05 | 0.1   |0.005   |0.5    |1 days 12 hr 28 min 32 sec-3 days 03 hr 15 min 04 sec|
-# |0.05, 0.05, 0.05 | 0.1   |0.008   |0.5    |1 days 09 hr 26 min 15 sec-2 days 08 hr 27 min 09 sec|
-# |0.05, 0.05, 0.05 | 0.1   |0.010   |0.5    |1 days 11 hr 19 min 32 sec-2 days 07 hr 39 min 55 sec|
-# |0.05, 0.05, 0.05 | 0.1   |0.012   |0.5    |1 days 06 hr 29 min 59 sec-2 days 05 hr 06 min 25 sec|
-# |0.05, 0.05, 0.05 | 0.008 |0.005   |0.8    |2 days 08 hr 45 min 19 sec- |
-# |0.05, 0.05, 0.05 | 0.008 |0.008   |0.8    |2 days 04 hr 02 min 00 sec- |
-# |0.05, 0.05, 0.05 | 0.008 |0.010   |0.8    |2 days 01 hr 26 min 29 sec- |
-# |0.05, 0.05, 0.05 | 0.008 |0.012   |0.8    |2 days 06 hr 41 min 55 sec- |
+# |0.05, 0.05, 0.05 | 0.008   |0.005   |0.5    |1 days 12 hr 28 min 32 sec-3 days 03 hr 15 min 04 sec|
+# |0.05, 0.05, 0.05 | 0.008   |0.008   |0.5    |1 days 09 hr 26 min 15 sec-2 days 08 hr 27 min 09 sec|
+# |0.05, 0.05, 0.05 | 0.008   |0.010   |0.5    |1 days 11 hr 19 min 32 sec-2 days 07 hr 39 min 55 sec|
+# |0.05, 0.05, 0.05 | 0.008   |0.012   |0.5    |1 days 06 hr 29 min 59 sec-2 days 05 hr 06 min 25 sec|
+# |0.05, 0.05, 0.05 | 0.005 |0.005   |0.8    |2 days 08 hr 45 min 19 sec-4 days 18 hr 51 min 47 sec|
+# |0.05, 0.05, 0.05 | 0.005 |0.008   |0.8    |2 days 04 hr 02 min 00 sec-4 days 17 hr 03 min 18 sec|
+# |0.05, 0.05, 0.05 | 0.005 |0.010   |0.8    |2 days 01 hr 26 min 29 sec-4 days 16 hr 13 min 56 sec|
+# |0.05, 0.05, 0.05 | 0.005 |0.012   |0.8    |2 days 06 hr 41 min 55 sec-3 days 16 hr 21 min 05 sec|
 # 
 # ## 4.2: Pre-Damage Part 
 # 
