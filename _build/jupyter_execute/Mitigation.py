@@ -51,9 +51,6 @@
 
 
 from IPython.display import Image
-from IPython.display import display, HTML
-display(HTML("<style>.container { width:100% !important; }</style>"))
-
 Image(filename='./JumpStates.png')
 
 
@@ -126,7 +123,7 @@ Image(filename='./JumpStates.png')
 
 # # 4: Execution Time Table
 # 
-# ## 4.1: Post-Damage Part
+# ## 4.1: Post-Damage Part (Algorithem-Improved)
 # 
 # 
 # | Grid Step Size | Learning Rate| $\psi_0$ | $\psi_1$ | Time |
@@ -148,7 +145,7 @@ Image(filename='./JumpStates.png')
 # |0.05, 0.05, 0.05 | 0.005 |0.010   |0.8    |2 days 01 hr 26 min 29 sec-4 days 16 hr 13 min 56 sec|
 # |0.05, 0.05, 0.05 | 0.005 |0.012   |0.8    |2 days 06 hr 41 min 55 sec-3 days 16 hr 21 min 05 sec|
 # 
-# ## 4.2: Pre-Damage Part 
+# ## 4.2: Pre-Damage Part (Algorithem-Improved)
 # 
 # | Grid Step Size | Learning Rate| $\psi_0$ | $\psi_1$ | Time |
 # |----|---|---|---|---|
@@ -168,6 +165,17 @@ Image(filename='./JumpStates.png')
 # |0.05, 0.05, 0.05 | 0.008 |0.008   |0.8    |    |
 # |0.05, 0.05, 0.05 | 0.008 |0.010   |0.8    |    |
 # |0.05, 0.05, 0.05 | 0.008 |0.012   |0.8    |    |
+# 
+# ## 4.3: Post-Damage Part (Interpolation-Accelerated + Algorithem-Improved)
+# 
+# |0.05, 0.05, 0.05 | 0.008   |0.005   |0.5    |-|
+# |0.05, 0.05, 0.05 | 0.008   |0.008   |0.5    |1 days 06 hr 03 min 53 sec-|
+# |0.05, 0.05, 0.05 | 0.008   |0.010   |0.5    |1 days 03 hr 49 min 05 sec-|
+# |0.05, 0.05, 0.05 | 0.008   |0.012   |0.5    |1 days 03 hr 17 min 19 sec-|
+# |0.05, 0.05, 0.05 | 0.005 |0.005   |0.8    |-|
+# |0.05, 0.05, 0.05 | 0.005 |0.008   |0.8    |-|
+# |0.05, 0.05, 0.05 | 0.005 |0.010   |0.8    |-|
+# |0.05, 0.05, 0.05 | 0.005 |0.012   |0.8    |-|
 # 
 
 # # 5: Graphical Comparison
