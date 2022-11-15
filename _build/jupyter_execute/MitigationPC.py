@@ -126,7 +126,7 @@ Image(filename='./JumpStates.png')
 # 
 # ## 5.1: Different $\psi_0$ and $\psi_1$
 
-# In[2]:
+# In[3]:
 
 
 from PIL import Image
